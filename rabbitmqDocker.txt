@@ -3,3 +3,6 @@
 
 #rabbit mq management  user : guest password : guest
 http://localhost:15672/
+
+#zipkin docker
+docker run -d -p 9411:9411 openzipkin/zipkin
